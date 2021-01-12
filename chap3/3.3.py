@@ -13,6 +13,7 @@ import time
 import matplotlib.pyplot as plt
 
 
+
 #####model 구현#####
 
 # 1. 텍스트를 단어 ID로 변환

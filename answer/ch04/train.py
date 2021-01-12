@@ -48,6 +48,6 @@ params = {}
 params['word_vecs'] = word_vecs.astype(np.float16)
 params['word_to_id'] = word_to_id
 params['id_to_word'] = id_to_word
-pkl_file = 'cbow_params.pkl'  # or 'skipgram_params.pkl'
+pkl_file = '../../chap4/cbow_params.pkl'  # or 'skipgram_params.pkl'
 with open(pkl_file, 'wb') as f:
     pickle.dump(params, f, -1)
